@@ -11,5 +11,5 @@ client = Client(
     partner_id=os.getenv("PARTNER_ID")
 )
 client.login()
-miner = client.get_miner()
-miner.transfer_coins()
+ print(client.token)
+
